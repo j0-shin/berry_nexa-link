@@ -9,6 +9,7 @@ const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')))
 
 // chatbot routing
 const Chatbot = Loadable(lazy(() => import('views/chatbot')));
+const Agent = Loadable(lazy(() => import('views/agent')));
 
 // utilities routing
 const UtilsTypography = Loadable(lazy(() => import('views/utilities/Typography')));
