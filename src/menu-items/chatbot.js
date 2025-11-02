@@ -18,6 +18,14 @@ const chatbot = {
       url: '/chatbot',
       icon: icons.IconMessageChatbot,
       breadcrumbs: false
+    },
+    {
+      id: 'agent-main',
+      title: 'Agent',
+      type: 'item',
+      url: '/agent',
+      icon: icons.IconMessageChatbot,
+      breadcrumbs: false
     }
   ]
 };
